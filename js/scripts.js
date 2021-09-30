@@ -72,7 +72,7 @@
   };
 })();
 
-pokemonRepository.add({ name: "Pikachu", height: 0.3, types: ["electric"],ImgUrl:["https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png"]});
+pokemonRepository.add({ name: "Pikachu", height: 0.3, types: ["electric"], ImgUrl:["https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png"]});
 
 console.log(pokemonRepository.getAll());
 
