@@ -2,31 +2,33 @@
   background-color: #9933cc;
   color: #ffffff;
   padding: 15px;
-  margin-bottom:15px;
+  margin-bottom: 15px;
 }
-.button-class ul {
+.pokemon-list ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  width: 135px;
+  font-size: medium;
 }
-.button-class {
-  padding: 8px;
+.pokemon-list li {
+  padding: 29px;
   margin-bottom: 7px;
-  padding: 20px 40px;
   background-color: #33b000;
   color: #ffffff;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
-.button-class li:hover {
-  background-color: #0099cc;
+.pokemon-list li:hover {
+  background-color: #698a96;
 }
-.content{
+.content {
   display: flex;
 }
-ul,#result{
-  height:100vh;
+ul,
+#result {
+  height: 100vh;
   background-color: #ccc;
-  border-right:1px solid black;
-  border-left:1px solid black;
-  margin:0 10px;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  margin: 0 10px;
 }
