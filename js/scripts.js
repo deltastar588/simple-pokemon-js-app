@@ -5,20 +5,20 @@
     {
       name: "Gloom",
       type: ["Poison"],
-      hight: [2.07],
-      ImgUrl: ["https://assets.pokemon.com/assets/cms2/img/pokedex/full/044.png"],
+      hight: 2.07,
+      ImgUrl:"https://assets.pokemon.com/assets/cms2/img/pokedex/full/044.png",
     },
     {
       name: "Vileplume",
       type: ["Grass"],
-      hight: [3.11],
-      ImgUrl: ["https://assets.pokemon.com/assets/cms2/img/pokedex/full/045.png"],
+      hight: 3.11,
+      ImgUrl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/045.png",
     },
     {
       name: "Paras",
       type: ["Bug", "Grass"],
-      hight: [1],
-      ImgUrl: ["https://assets.pokemon.com/assets/cms2/img/pokedex/full/046.png"],
+      hight: 1,
+      ImgUrl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/046.png",
     },
   ];
 
@@ -43,7 +43,7 @@
   let Image=document.createElement("img");
   let name=document.createElement("h2");
   name.innerText=pokemon.name;
-  Image.src=pokemon.ImgUrl[0];
+  Image.src=pokemon.ImgUrl;
   resultDiv.innerHTML="";
   // if here
   resultDiv.appendChild(name);
@@ -72,7 +72,7 @@
   };
 })();
 
-pokemonRepository.add({ name: "Pikachu", height: 0.3, types: ["electric"], ImgUrl:["https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png"]});
+pokemonRepository.add({ name: "Pikachu", height: 0.3, types: ["electric"], ImgUrl:"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png"});
 
 console.log(pokemonRepository.getAll());
 
